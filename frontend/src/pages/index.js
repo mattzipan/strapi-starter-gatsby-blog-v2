@@ -50,7 +50,7 @@ const IndexPage = () => (
       render={data => (
         <div className="uk-section">
           <div className="uk-container uk-container-large">
-            <h1>{data.strapiHomepage.Hero.HeroText} and also another text</h1>
+            <h1>{data.strapiHomepage.Hero.HeroText} and also another Text</h1>
             <ArticlesComponent articles={data.allStrapiArticle.edges} />
           </div>
         </div>
